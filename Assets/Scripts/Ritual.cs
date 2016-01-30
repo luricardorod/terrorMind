@@ -5,7 +5,7 @@ public class Ritual : MonoBehaviour {
 
 	public int[] code;
 	public int[] objetosRitual = {50,50,50,50};
-	private int i,j;
+	private int i,j,objetoEnPosicion, objetoEnCodigo;
 	// Use this for initialization
 	void Start () {
 		code = new int[4];
@@ -27,7 +27,25 @@ public class Ritual : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.K)){
 			print("space key was pressed");
-			Debug.Log(objetosRitual[0]);
+			CheckRitual();
+			Debug.Log(objetoEnPosicion);
+			Debug.Log(objetoEnCodigo);
+		}
+	}
+
+	void CheckRitual () {
+		objetoEnPosicion = 0;
+		objetoEnCodigo = 0;
+		for (i = 0; i < 4; i++) {
+			if (objetosRitual[i] == code[i]) {
+				objetoEnPosicion++;
+			} else {
+				for (j = 0; j < 4; j++) {
+					if (objetosRitual[i] == code[j]) {
+						objetoEnCodigo++;
+					}
+				}
+			}
 		}
 	}
 }
