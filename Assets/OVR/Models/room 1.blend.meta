@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1888bbf57e16c4147a9d954ba7a4a38d
-timeCreated: 1454197397
+guid: c23f9c2d3bb7c4e4986a9a18bb534b03
+timeCreated: 1454201504
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -42,10 +42,10 @@ ModelImporter:
     100068: LIBRO
     100070: MUEBLE_1
     100072: Plane
-    100074: //RootNode
-    100076: TECHO
-    100078: wall
-    100080: wall_001
+    100074: Plane_001
+    100076: //RootNode
+    100078: TECHO
+    100080: wall
     400000: almhoada
     400002: base_libro
     400004: cama
@@ -83,10 +83,10 @@ ModelImporter:
     400068: LIBRO
     400070: MUEBLE_1
     400072: Plane
-    400074: //RootNode
-    400076: TECHO
-    400078: wall
-    400080: wall_001
+    400074: Plane_001
+    400076: //RootNode
+    400078: TECHO
+    400080: wall
     2300000: almhoada
     2300002: base_libro
     2300004: cama
@@ -124,9 +124,9 @@ ModelImporter:
     2300068: LIBRO
     2300070: MUEBLE_1
     2300072: Plane
-    2300074: TECHO
-    2300076: wall
-    2300078: wall_001
+    2300074: Plane_001
+    2300076: TECHO
+    2300078: wall
     3300000: almhoada
     3300002: base_libro
     3300004: cama
@@ -164,37 +164,37 @@ ModelImporter:
     3300068: LIBRO
     3300070: MUEBLE_1
     3300072: Plane
-    3300074: TECHO
-    3300076: wall
-    3300078: wall_001
-    4300000: Cube_006
-    4300002: Cylinder_018
-    4300004: Cylinder_017
-    4300006: Cylinder_016
-    4300008: Cylinder_015
-    4300010: Cylinder_014
-    4300012: Cylinder_013
-    4300014: Cylinder_012
-    4300016: Cylinder_011
-    4300018: Cylinder_010
-    4300020: Cylinder_009
-    4300022: Cylinder_008
-    4300024: Cube_005
-    4300026: Cube_004
-    4300028: Cube_003
-    4300030: Cube_002
-    4300032: Plane
-    4300034: Cube_001
-    4300036: Cube
-    4300038: Cylinder_007
-    4300040: Cylinder_006
-    4300042: Cylinder_005
-    4300044: Cylinder_004
-    4300046: Cylinder_003
-    4300048: Cylinder_002
-    4300050: Cylinder_001
-    4300052: Cylinder
-    4300054: wall_001
+    3300074: Plane_001
+    3300076: TECHO
+    3300078: wall
+    4300000: Plane_001
+    4300002: Cube_006
+    4300004: Cylinder_018
+    4300006: Cylinder_017
+    4300008: Cylinder_016
+    4300010: Cylinder_015
+    4300012: Cylinder_014
+    4300014: Cylinder_013
+    4300016: Cylinder_012
+    4300018: Cylinder_011
+    4300020: Cylinder_010
+    4300022: Cylinder_009
+    4300024: Cylinder_008
+    4300026: Cube_005
+    4300028: Cube_004
+    4300030: Cube_003
+    4300032: Cube_002
+    4300034: Plane
+    4300036: Cube_001
+    4300038: Cube
+    4300040: Cylinder_007
+    4300042: Cylinder_006
+    4300044: Cylinder_005
+    4300046: Cylinder_004
+    4300048: Cylinder_003
+    4300050: Cylinder_002
+    4300052: Cylinder_001
+    4300054: Cylinder
     4300056: DOOR_001
     4300058: TECHO
     4300060: LIBRO
@@ -244,9 +244,9 @@ ModelImporter:
     6400068: LIBRO
     6400070: MUEBLE_1
     6400072: Plane
-    6400074: TECHO
-    6400076: wall
-    6400078: wall_001
+    6400074: Plane_001
+    6400076: TECHO
+    6400078: wall
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -273,7 +273,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 1
+    meshCompression: 0
     addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
@@ -289,9 +289,9 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
+    splitTangentsAcrossUV: 0
     normalImportMode: 0
-    tangentImportMode: 2
+    tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -307,7 +307,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
